@@ -1,6 +1,6 @@
 public class User {
-    private String name;
-    private String id;
+    final String name;
+    final String id;
 
     public User(String name, String id){
         this.name = name;
@@ -18,5 +18,6 @@ public class User {
     @Override
     public String toString() {
             return ("Имя: " + getName() + ", ID: " + getId());
+
     }
 }
