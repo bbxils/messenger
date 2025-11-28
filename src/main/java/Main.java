@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Пользователи: ");
         for (User user : users) {
             System.out.println(user.toString());
+
         }
     }
 }
